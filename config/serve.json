@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://dattabase.sharepoint.com/sites/dev/lists/JSLinkDemo/allitems.aspx",
+      "customActions": {
+        "28417b84-019e-4563-bc68-fbfb21a8d914": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar"
+        }
+      }
+    },
+    "menu": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/lists/JSLinkDemo/allitems.aspx",
+      "customActions": {
+        "28417b84-019e-4563-bc68-fbfb21a8d914": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar"
+        }
+      }
+    }
+  }
+}

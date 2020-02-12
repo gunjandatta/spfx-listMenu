@@ -1,2 +1,3 @@
-# spfx-listMenu
-Upgrades the sp-jsLinkMenu project to SPFx.
+## spfx-list-menu
+
+Code example upgrading the [JSLink](https://github.com/gunjandatta/sp-jslinkmenu/wiki) solution to SPFx.

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "menu-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/menu/MenuCommandSet.js",
+          "manifest": "./src/extensions/menu/MenuCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jslinkMenu": {
+      "globalName": "JSLinkMenu",
+      "path": "https://dattabase.sharepoint.com/clientsideassets/jslinkMenu/jslink-menu.js"
+    }
+  },
+  "localizedResources": {
+    "MenuCommandSetStrings": "lib/extensions/menu/loc/{locale}.js"
+  }
+}

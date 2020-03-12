@@ -12,7 +12,7 @@
       }
     },
     "menu": {
-      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/lists/JSLinkDemo/allitems.aspx",
+      "pageUrl": "https://dattabase.sharepoint.com/sites/dev/lists/JSLinkDemo/allitems.aspx",
       "customActions": {
         "28417b84-019e-4563-bc68-fbfb21a8d914": {
           "location": "ClientSideExtension.ListViewCommandSet.CommandBar"
